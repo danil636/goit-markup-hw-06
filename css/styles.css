@@ -760,7 +760,7 @@ letter-spacing: 0.02em; */
 }
 
 .conteiner-div-footer {
-  display: flex;
+  flex-direction: column;
   align-items: baseline;
 }
 
@@ -806,10 +806,6 @@ letter-spacing: 0.02em; */
   fill: var(--complementary-color);
 }
 
-.footer-container {
-margin-right: 120px;
-}
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -838,10 +834,6 @@ margin-right: 120px;
   max-width: 264px;
 }
 
-.footer-modal-container {
-margin-left: 80px;
-}
-
 .footer-modal-parph {
   margin-bottom: 16px;
   font-weight: 500;
@@ -853,7 +845,6 @@ margin-left: 80px;
 }
 
 .footer-modal-form {
-  display: flex;
   gap: 24px;
 }
 
@@ -909,36 +900,35 @@ margin-left: 80px;
 
   .footer-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 97px;
+    text-align: center;
   }
 
   .soc-footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 
   }
 
   .footer-parph {
-    margin-left: 86px;
-    margin-right: 86px;
     margin-bottom: 72px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-modal-container {
-    display: block;
     flex-direction: column;
     align-items: center;
-    margin-top: 96px;
   }
 
   .footer-modal-btn {
     margin-top: 16px;
-    margin-bottom: 96px;
-    margin-left: 132px;
-    margin-right: 132px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-modal-input {
@@ -967,8 +957,6 @@ margin-left: 80px;
   .footer-modal-container {
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-bottom: ;
     gap: 16px;
     margin-top: 72px;
     margin-left: 108px;
