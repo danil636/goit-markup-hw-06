@@ -843,7 +843,7 @@ margin-left: 80px;
 } */
 
 .footer-modal-parph {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -902,6 +902,10 @@ margin-left: 80px;
 }
 
 @media only screen and (max-width: 767px) {
+  .conteiner-div-footer{
+    /* align-items: center; */
+  }
+
   .footer-container {
     display: flex;
     flex-wrap: wrap;
