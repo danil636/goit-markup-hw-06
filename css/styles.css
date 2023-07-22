@@ -755,13 +755,17 @@ letter-spacing: 0.02em; */
 */
 
 .footer {
+  width: auto;
+  height: auto;
   background-color: var(--text-color);
-  padding: 100px 0;
+  padding: 98px 0 96px 0;
 }
 
 .conteiner-div-footer {
   display: flex;
+  gap: 72px;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .soc-parph {
@@ -807,7 +811,7 @@ letter-spacing: 0.02em; */
 }
 
 .footer-container {
-  /* margin-right: 120px; */
+/* margin-right: 120px; */
 }
 
 .footer-logo {
@@ -839,7 +843,7 @@ letter-spacing: 0.02em; */
 }
 
 .footer-modal-container {
-  margin-left: 80px;
+margin-left: 80px;
 }
 
 .footer-modal-parph {
@@ -985,8 +989,6 @@ letter-spacing: 0.02em; */
   .footer-modal-input {
     display: flex;
   }
-
-
 }
 
 @media only screen and (min-width: 1158px) {
